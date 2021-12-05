@@ -1,0 +1,279 @@
+@font-face {
+    font-family: Roboto;
+     src: url("fonts/Roboto/Roboto-Black.ttf");
+   }
+@font-face {
+    font-family: Forum;
+     src: url("fonts/Forum/Forum-Regular.ttf");
+   }
+html{
+    font-size: 10px;
+}
+.Welcome{
+    background-color: black;
+    width: 144rem;
+    height: 96rem;
+    padding-left: 24rem;
+    padding-right: 24rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heager{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding-top: 5.9rem;
+    height: 9rem;
+}
+.navigation_ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+       
+}
+.navigation_list{
+    padding-left: 5.5rem;
+    font-size: 2.2rem;
+    
+}
+.logo{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-family: Forum;
+}
+.main_Welcome{
+    display: grid;
+    grid-template-columns: 31% 69%;
+    color: #ffffff;
+
+}
+
+.image_Welcome{
+   width: 100rem;
+   height: 75rem;
+   /* background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%), url(https://github.com/rolling-scopes-school/stage1-tasks/blob/museum/assets/img/welcome-slider/1.jpg?raw=true);*/
+   
+   overflow: hidden;
+    position: relative;
+}
+.slider_line{
+    display: flex;
+    flex-direction: row;
+    position: relative;  
+     left: 0;
+     
+     transition: all ease 1s;
+}
+h1{
+    font-family: Forum;
+    text-transform: uppercase;
+    font-size: 8rem;
+    color: #ffffff;
+    color: #ffffff;
+    position:absolute;
+    width: 59.3rem;
+    height: 18rem;
+    font-weight: normal;
+    
+}
+.text_h1{margin: 0;
+}
+.text_Welcome{
+    display: flex;
+    z-index: 2;
+}
+.text_Welcome{
+    display: grid;
+    grid-template-rows: 18% 25rem 8% 18.5% 1fr;
+}
+.second_text_Welcome{
+    font-size: 2.8rem;
+    font-style: normal;
+    display: flex;
+    align-items: flex-end;
+}
+.button_Welcome{
+    height: 7.5rem;
+    width: 36rem;
+    background-color: #710707;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    cursor: pointer;
+     color: #ffffff;
+    }
+.button_wraper{
+    display: flex;
+    align-items: flex-end;
+   
+}
+.slider_Welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+     width: 60rem;
+    height: 12rem;
+    background-color: black;
+    padding: 0 3rem 0 3rem;
+    
+}
+.slider_prew {
+    width: 3rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+.slider_next {
+    width: 3rem;
+    height: 1.5rem;
+    cursor: pointer;
+    }
+.slider_wraper{
+    position: absolute;
+    left: 109.7rem;
+    top: 84.5rem;
+}
+.slider_item{
+    height: 1.6rem;
+    width: 1.6rem;
+    background: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.slider_item:hover{
+    background-color: #710707;
+}
+.slider_num{
+    
+    font-size: 2.2rem;
+}
+#Slider_item1{
+    background: #D2B183;
+}
+.Virtual_tour{
+    padding-left: 24rem;
+    padding-right: 24rem;
+    height: 126.6rem;
+    width: 144rem;
+}
+h2{
+    color: #9D8665;
+    font-family: Forum;
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+    border-bottom: #710707;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: -2.5rem;
+    left: 0;
+    right: 0;
+    background-color: #710707;
+}
+.Tour_items{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 6rem;
+    column-gap: 6rem;
+    margin-top: 7.5rem;
+}
+.Tour_item{
+    width: 44rem;
+    height: 42.5rem;
+    cursor: pointer;
+    position: relative;
+}
+h3{
+    color: #000000;
+    font-family: Forum;
+    font-size: 3.2rem;
+    letter-spacing: 0.5rem;  
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 2.5rem;
+   
+}
+.Tour_item::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    right: 40%;
+    background-color: #710707;
+    bottom: 7rem;
+}
+.Tour_item:hover:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    right: 0%;
+    background-color: #710707;
+    bottom: 7rem;
+    transition: all ease 1s
+}
+p{
+    margin: 1rem 0 1rem 0;
+    font-size: 2.2rem;
+    font-family: Roboto;
+    font-weight: 200;
+}
+a{
+   color: black;
+   text-decoration: none; 
+}
+.Picture_explore{
+    background-color: black;
+    width: 144rem;
+    height: 87rem;
+    padding-left: 24rem;
+    padding-right: 24rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.text_explore{
+    color: #FFFFFF;
+    max-width: 68rem;
+}
+.main_explore{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 8rem;
+    font-weight: normal;
+    letter-spacing: 5px;
+    padding-top: 7.5rem;
+    position: relative;
+}
+.main_explore::after{
+    content: "";
+    position: absolute;
+    left:0;
+    right: 0;
+    height: 3px;
+    background-color: #710707;
+    bottom: -2.5rem;
+}
+.text_item{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    padding-top: 2.5rem;
+}
+.explore_img{
+    width: 720px;
+     height: 700px;
+     padding: 9rem 0 0 6rem;
+}
+
+
+
+
+
